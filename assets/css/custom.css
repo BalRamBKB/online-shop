@@ -1,0 +1,87 @@
+.bg-white {
+    background: #fff;
+}
+
+.cart {
+    width: 50px;
+}
+
+.nav-shadow {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.home-shadow {
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.carousel-indicators li {
+    background-color: #999;
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+}
+
+.product-card .card {
+    border: none;
+}
+
+.product-card .card .card-title {
+    min-height: 60px;
+}
+
+.product-card .card .card-body {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+.product-card .card .card-footer {
+    background-color: #fff;
+    padding: 10px
+}
+
+.product-sidebar {
+    background-color: #ddd;
+}
+
+.product-sidebar .col-lg-12 {
+    padding: 0;
+}
+
+.product-sidebar .list-group-item {
+    background: transparent;
+}
+
+
+.register form .form-control {
+    border: 0;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+}
+
+
+.register form .form-control:focus {
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid teal;
+    box-shadow: none;
+}
+
+.register form .form-group>label {
+    bottom: 34px;
+    left: 0px;
+    position: relative;
+    padding: 0px 5px 0px 5px;
+    font-size: 1rem;
+    color: #999;
+    transition: 0.2s;
+    pointer-events: none;
+}
+
+.register form .form-control:focus~label {
+    color: teal;
+    bottom: 65px;
+}
+
+.register form .form-control:valid~label {
+    bottom: 65px;
+}
